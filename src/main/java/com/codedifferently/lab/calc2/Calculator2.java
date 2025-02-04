@@ -7,6 +7,10 @@ public class Calculator2 {
 
     public void findTotal(){
         //Calculate an individual's total after tax and tip
+        double amount1 = originalPrice * tip;
+        double amount2 =  originalPrice * tax;
+        double total = originalPrice + amount1 + amount2;
         //Print this value
+        System.out.println("total amount after tax and tip" + total);
     }
 }
