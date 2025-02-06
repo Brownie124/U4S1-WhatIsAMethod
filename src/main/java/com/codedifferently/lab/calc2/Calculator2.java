@@ -11,6 +11,6 @@ public class Calculator2 {
         double amount2 =  originalPrice * tax;
         double total = originalPrice + amount1 + amount2;
         //Print this value
-        System.out.println("total amount after tax and tip" + total);
+        System.out.println("total amount after tax and tip: " + total);
     }
 }
