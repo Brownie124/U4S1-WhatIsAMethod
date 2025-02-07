@@ -7,6 +7,25 @@ public class CalculatorTest3 {
 
         //Use the Calculator object and arguments supplied to findTotal()
         //to print the total for each person
+        calc.findTotal(10);
+
+        calc.findTotal(12);
+
+        calc.findTotal(9);
+
+        calc.findTotal(8);
+
+        calc.findTotal(7);
+
+        calc.findTotal(15);
+
+        calc.findTotal(11);
+
+        calc.findTotal(30);
+
+
+
+
 
 
 
