@@ -5,17 +5,19 @@ public class CalculatorTest4 {
 
         Calculator4 calc = new Calculator4();
 
-        //Name your friends
-        calc.findTotal(10, null);
-        calc.findTotal(12, null);
-        calc.findTotal(9,  null);
-        calc.findTotal(8,  null);
-        calc.findTotal(7,  null);
-        calc.findTotal(15, "Alex");
-        calc.findTotal(11, null);
-        calc.findTotal(30, "Forgetful");
+        //Name your friends//
+       double person1 = calc.findTotal(10, null);
+        double person2 = calc.findTotal(12, null);
+        double person3 =  calc.findTotal(9,  null);
+        double person4 = calc.findTotal(8,  null);
+        double person5 = calc.findTotal(7,  null);
+        double alex = calc.findTotal(15, "Alex");
+        double person7 = calc.findTotal(11, null);
+        double forgettotal = calc.findTotal(30, "Forgetful");
 
         //Find and print the entire table's total, including tax and tip
-
+        double sharecost = (alex + forgettotal) /6;
+        double totaltable =
+        System.out.println();
     }
 }
