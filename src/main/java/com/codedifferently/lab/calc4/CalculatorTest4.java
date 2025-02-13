@@ -17,7 +17,7 @@ public class CalculatorTest4 {
 
         //Find and print the entire table's total, including tax and tip
         double sharecost = (alex + forgettotal) /6;
-        double totaltable =
-        System.out.println();
+        double totaltable = person1 + person2 + person3 + person4 + person5 + person7 + sharecost;
+        System.out.println("this is the total" + totaltable);
     }
 }
